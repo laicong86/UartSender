@@ -1,0 +1,15 @@
+{
+  "line_interval": 200,
+  "char_interval": 10,
+  "newline": "CR",
+  "send_method": "message",
+  "focus_mode": "temp",
+  "always_on_top": true,
+  "skip_empty": true,
+  "keydown_compat": false,
+  "auto_advance": true,
+  "display_mode": "single",
+  "recent_files": [
+    "D:\\workspace\\test_tool\\send_tool\\demo_commands.txt"
+  ]
+}

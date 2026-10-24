@@ -1,0 +1,17 @@
+{
+  "line_interval": 200,
+  "char_interval": 10,
+  "newline": "CR",
+  "send_method": "message",
+  "focus_mode": "keep",
+  "always_on_top": true,
+  "skip_empty": true,
+  "keydown_compat": false,
+  "auto_advance": true,
+  "display_mode": "single",
+  "opacity": 1.0,
+  "recent_files": [
+    "D:\\workspace\\测试脚本\\floor_12_tianqin.txt"
+  ],
+  "cfg_version": 2
+}
