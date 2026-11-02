@@ -25,10 +25,10 @@
 **5 个通道**（uart0~uart4 / cmd0~cmd4），左侧只显示通道号 `0~4`，把位置留给窗口标题。
 两个显示模式（顶部右侧 **[拆分]/[原样]** 按钮随时切换，**默认原样**）：
 
-| 原样显示（默认） | 拆分显示 |
+| 模式 | 效果 |
 | --- | --- |
-| ![原样](screenshot_main.png) | ![拆分](screenshot_split.png) |
-| 整份文件一栏原样显示，发送时遇 `##>n` 自动切换目标窗口 | 按 `##>n` 拆到 cmd0~cmd4，每栏各自绑定一个 uart |
+| 原样显示（默认） | 整份文件一栏原样显示，发送时遇 `##>n` 自动切换目标窗口 |
+| 拆分显示 | 按 `##>n` 拆到 cmd0~cmd4，每栏各自绑定一个 uart |
 
 ---
 
@@ -250,9 +250,7 @@ uname -a
 | `main.py` | 界面 + 文档解析 + 发送调度（入口） |
 | `winutil.py` | Win32 封装：取窗口、激活窗口、WM_CHAR 投递、SendInput 模拟 |
 | `build.bat` | 一键打包成 `dist\UartSender.exe` |
-| `run.bat` | 源码方式启动（无控制台） |
 | `demo_commands.txt` | 示例命令文件 |
 | `UartSender.json` | 运行后自动生成的配置文件（与程序同级） |
-| `app.ico` / `app_icon.png` | 程序图标：三片蓝色旋弧（对应 uart0/1/2 三个目标）+ 终端提示符 `>_`，含 16~256 全尺寸 |
-| `icon_preview.png` | 图标预览（白底 / 深色底） |
-| `screenshot_main.png` / `screenshot_split.png` / `screenshot_settings.png` | 界面截图（原样 / 拆分 / 设置） |
+| `app.ico` | 程序图标：三片蓝色旋弧（对应 uart0/1/2 三个目标）+ 终端提示符 `>_`，含 16~256 全尺寸 |
+| `screenshot_main.png` / `screenshot_settings.png` | 界面截图（主界面 / 设置） |
