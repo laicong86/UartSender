@@ -1,7 +1,13 @@
 # UartSender · 命令发送器
 
+[![Release](https://img.shields.io/github/v/release/laicong86/UartSender?label=release)](https://github.com/laicong86/UartSender/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%20x64-blue)](https://github.com/laicong86/UartSender/releases/latest)
+[![Python](https://img.shields.io/badge/python-3.8%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
 把一份 txt 命令脚本，按行"敲"进其它 Windows 窗口（串口终端、SSH 终端、命令行窗口都行）。
 纯 Python 标准库实现（`tkinter` + `ctypes`），无第三方依赖，可直接打包成绿色单文件 exe。
+
+> **下载** ｜ [**UartSender.exe**](https://github.com/laicong86/UartSender/releases/latest/download/UartSender.exe) 免安装单文件 · Windows x64 · 约 8.4 MB ｜ [全部版本](https://github.com/laicong86/UartSender/releases) ｜ 源码运行：`python main.py`（需 Python 3.8+）
 
 ![主界面](screenshot_main.png)
 
