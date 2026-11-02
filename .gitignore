@@ -1,0 +1,16 @@
+# 构建产物
+dist/
+build/
+*.exe
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+Thumbs.db
+.DS_Store
